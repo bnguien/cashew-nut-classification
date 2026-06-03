@@ -1,0 +1,12 @@
+django
+daphne
+djangorestframework
+channels
+mysqlclient
+requests
+python-dotenv
+paho-mqtt
+PyJWT
+django-cors-headers
+opencv-python-headless
+numpy

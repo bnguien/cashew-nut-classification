@@ -1,0 +1,28 @@
+# =============================================================================
+# cashew.yaml — YOLO Dataset Config
+# Đặt file này tại: cashew-ai-server/datasets/cashew.yaml
+#
+# Cấu trúc thư mục:
+#   datasets/
+#     cashew/
+#       images/
+#         train/   ← ảnh train (jpg/png)
+#         val/     ← ảnh validation
+#       labels/
+#         train/   ← nhãn YOLO format (.txt tương ứng mỗi ảnh)
+#         val/
+#     cashew.yaml  ← file này
+# =============================================================================
+
+path: ./datasets/cashew   # thư mục gốc dataset (relative to cashew-ai-server/)
+train: images/train       # thư mục ảnh train
+val: images/val           # thư mục ảnh validation
+
+# Số lượng class
+nc: 3
+
+# Tên các class — ĐẶT ĐÚNG THỨ TỰ với nhãn 0, 1, 2 trong file .txt
+names:
+  0: whole
+  1: broken
+  2: defect
