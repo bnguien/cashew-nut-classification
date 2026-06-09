@@ -1,5 +1,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/YOLOv8-111111?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/MobileNetV2-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
   <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=eclipse-mosquitto&logoColor=white" />
   <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
@@ -14,17 +15,18 @@ An intelligent system for real-time cashew nut classification using computer vis
 
 ## 📌 Overview
 
-This project uses **YOLOv8** to detect and classify cashew nuts from images or live camera streams. The system integrates **MQTT** for real-time communication, a **Django** backend for data processing and API services, and a **React Native** mobile app for monitoring and visualization.
+This project uses **YOLOv8** and **MobileNetV2** to detect and classify cashew nuts from images or live camera streams. YOLOv8 is responsible for object detection, while MobileNetV2 performs lightweight image classification suitable for deployment on resource-constrained devices. The system integrates **MQTT** for real-time communication, a **Django** backend for data processing and API services, and a **React Native** mobile app for monitoring and visualization.
 
 ---
 
 ## 🚀 Features
 
-- Real-time cashew nut detection & classification  
-- Lightweight communication via MQTT  
-- Backend API and data management with Django  
-- Cross-platform mobile app (React Native)  
-- Scalable for smart agriculture and industrial applications  
+- Real-time cashew nut detection using YOLOv8
+- Cashew nut classification using MobileNetV2
+- Lightweight communication via MQTT
+- Backend API and data management with Django
+- Cross-platform mobile app (React Native)
+- Scalable for smart agriculture and industrial applications
 
 ---
 
@@ -32,6 +34,7 @@ This project uses **YOLOv8** to detect and classify cashew nuts from images or l
 
 <p align="center">
   <img src="https://img.shields.io/badge/YOLOv8-111111?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/MobileNetV2-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
   <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=eclipse-mosquitto&logoColor=white" />
   <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />

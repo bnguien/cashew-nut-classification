@@ -1,0 +1,45 @@
+# ========== Python ==========
+**/venv/
+**/__pycache__/
+*.py[cod]
+*pycache*
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ========== Node.js ==========
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========== AI Model files (rất nặng) ==========
+*.pt
+*.pth
+*.tflite
+*.h5
+*.hdf5
+*.onnx
+*.pb
+*.pkl
+*.joblib
+*.safetensors
+
+# ========== IDE & Editor ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========== Environment ==========
+.env
+.env.local
+.env.production
+
+# ========== OS files ==========
+desktop.ini
+*.lnk

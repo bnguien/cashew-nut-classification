@@ -34,7 +34,8 @@ Hệ thống gồm 3 tầng phần cứng phối hợp với nhau:
 | 7 | Relay module | 5V 1-channel opto-isolated | 1 | Điều khiển băng chuyền (D3) |
 | 8 | Nút nhấn | Tactile button, NO | 1 | Dừng khẩn, kết nối D2 (INT0) |
 | 9 | Nguồn servo | 5V / 2A trở lên | 1 | Cấp riêng, không dùng chân 5V Ard |
-| 10 | Dây nối | Jumper wire M-M, M-F | nhiều | |
+| 10 | FTDI adapter | CP2102 hoặc CH340 | 1 | Nạp firmware ESP32-CAM |
+| 11 | Dây nối | Jumper wire M-M, M-F | nhiều | |
 
 > **Lưu ý nguồn điện**: Servo tiêu thụ dòng cao khi khởi động (200-600mA mỗi servo). Không cấp 4 servo cùng lúc từ chân 5V của Arduino — dùng nguồn 5V/2A ngoài, chỉ nối chung GND với Arduino.
 
